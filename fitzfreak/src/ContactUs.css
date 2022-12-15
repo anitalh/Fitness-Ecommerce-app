@@ -1,0 +1,68 @@
+  .register{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 23%;
+    margin-bottom: 3rem;
+    width: 50%;
+    border: 0.1rem solid black;
+    background-color:#F5F5F5;
+  }
+
+label{
+    display: grid;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+
+  select{
+    display: grid;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+  }
+
+  input, textarea{
+    margin: 1rem ;
+    padding: 0.5rem;
+    width: 70%;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .submit_button{
+    width: 26%;
+    padding: 0.5rem;
+    margin-left: 48%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: green;
+    font-weight: bold;
+  }
+
+  .modal__submit{
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+  }
+
+  .modal::backdrop {
+    background-color: rgb(0 0 0 / 0.8 );
+  }
+
+  .register p{
+    color: red;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+  

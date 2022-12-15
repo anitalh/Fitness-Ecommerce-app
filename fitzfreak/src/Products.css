@@ -1,0 +1,42 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.card{
+    margin: 1rem;
+    grid-column: span 4;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    background-color: #F4C2C2;
+}
+
+.card:hover{
+    box-shadow: none;
+}
+
+.text{
+    font-weight:500;
+}
+
+.card__pic{
+    aspect-ratio: 1/1;
+    width: 50%;
+}
+
+/** breakpoint **/
+@media screen and (max-width:44rem) { 
+    .card{
+       grid-column: span 12;
+    }
+}

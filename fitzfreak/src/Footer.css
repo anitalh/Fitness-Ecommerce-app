@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: var(--header-bg);
+    color: white;
+}
+
+.footer p{
+    font-weight: bold;
+}
+
+.footer{ 
+    position:relative;
+    left:0;
+    bottom:0;
+    right:0;
+}

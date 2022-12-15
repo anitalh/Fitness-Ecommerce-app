@@ -1,0 +1,22 @@
+.theme-switcher__toggle{
+    display: flex;
+    min-width:calc(5ch+8px);
+    padding: 4px;
+    font:inherit;
+    background-color: lightgrey;
+    border-radius: 2rem;
+    border: 1px solid darkgray;
+}
+
+.theme-switcher__select{ 
+    display: inline-block;
+    width: 2ch;
+    border-radius: 100%;
+    background-color: #eee;
+    height: 2ch;
+    border: 1px solid black;
+}
+
+.app.dark .theme-switcher__select{
+    order: 2;
+}

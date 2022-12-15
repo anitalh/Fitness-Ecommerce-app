@@ -1,0 +1,49 @@
+.dotstyle{
+    margin:0 0.5rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.dotscontainerstyles{
+    display: flex;
+    justify-content: center;
+}
+
+.sliderstyles{
+    position:relative;
+    height:100%;
+}
+
+.leftarrowstyles{
+    position:absolute;
+    top:50%;
+    transform:translate(0, -50%);
+    left:1rem;
+    font-size: 3rem;
+    color:#fff;
+    z-index: 1;
+    cursor:pointer;
+    background-color: inherit;
+    border: none;
+}
+
+.rightarrowstyles{
+    position:absolute;
+    top:50%;
+    transform:translate(0, -50%);
+    right:1rem;
+    font-size: 3rem;
+    color:#fff;
+    z-index: 1;
+    cursor:pointer;
+    background-color: inherit;
+    border: none;
+}
+
+.slidestyles{
+    width:100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
+}

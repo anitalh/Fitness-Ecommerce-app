@@ -1,0 +1,91 @@
+.card__holder-one, .card__holder-two, .card__holder-three, .card__holder-four{
+    padding: 1rem;
+    border: 1px solid black;
+    gap: 1rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.card__holder-one{
+    background-color:paleturquoise;
+}
+
+.card__holder-two{
+    background-color: lightyellow;
+}
+
+.card__holder-three{
+    background-color:peachpuff;
+}
+
+.card__holder-four{
+    background-color:aliceblue;
+}
+
+.card__text{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+
+.panel__one, .panel__three{
+    float:right;
+    text-align: left; 
+    width: 10%;
+}
+
+.panel__two, .panel__four{
+    float:left; 
+    text-align: right; 
+    padding-right: 1rem;
+    width: 10%;
+}
+
+
+.container-styles{
+    width: 500px;
+    height: 280px;
+    margin: 4rem auto;
+}
+
+.modal{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  
+.about__controls{
+    padding-top: 2rem;
+}
+
+.about__text{
+    font-weight: bold;
+    text-align: center;
+}
+
+.about__modal{
+    width: 60%;
+    text-align: center;
+}
+
+.about__open{
+    width: 13rem;
+    background-color: green;
+    padding: 0.5rem;
+    color: white;
+    position: relative;
+    left: 43%;
+}
+
+.about__modal::backdrop{
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+  /** breakpoint **/
+@media screen and (max-width:44rem) { 
+  .about__open{
+      position: relative;
+      left: 30%;
+  }
+}
